@@ -3,7 +3,7 @@ channel: deploy-by-donatas
 status: draft
 post_type: component
 component_focus: bff
-# scheduled:
+scheduled: false
 diagram: ../assets/2026-03/fitquest-bff-keycloak-session.png
 ---
 
