@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 640" width="920" height="640">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f4f1ea"/>
+      <stop offset="100%" style="stop-color:#e8e4dc"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arr" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#d6d3d1"/>
+    </marker>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg)"/>
+  <text x="460" y="48" text-anchor="middle" font-family="system-ui,Segoe UI,Roboto,sans-serif" font-size="22" font-weight="700" fill="#1c1917">CAP — распределённая база данных</text>
+  <text x="460" y="76" text-anchor="middle" font-family="system-ui,Segoe UI,Roboto,sans-serif" font-size="13" fill="#57534e">компромиссы при сетевом разделении (partition)</text>
+  <polygon points="460,118 220,458 700,458" fill="none" stroke="#292524" stroke-width="2.5" filter="url(#soft)"/>
+  <circle cx="460" cy="118" r="36" fill="#fafaf9" stroke="#44403c" stroke-width="2"/>
+  <text x="460" y="112" text-anchor="middle" font-family="ui-monospace,Consolas,monospace" font-size="20" font-weight="700" fill="#0c0a09">C</text>
+  <text x="460" y="132" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#57534e">Consistency</text>
+  <circle cx="220" cy="458" r="36" fill="#fafaf9" stroke="#44403c" stroke-width="2"/>
+  <text x="220" y="452" text-anchor="middle" font-family="ui-monospace,Consolas,monospace" font-size="20" font-weight="700" fill="#0c0a09">A</text>
+  <text x="220" y="472" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#57534e">Availability</text>
+  <circle cx="700" cy="458" r="36" fill="#fafaf9" stroke="#44403c" stroke-width="2"/>
+  <text x="700" y="452" text-anchor="middle" font-family="ui-monospace,Consolas,monospace" font-size="20" font-weight="700" fill="#0c0a09">P</text>
+  <text x="700" y="472" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#57534e">Partition tolerance</text>
+  <circle cx="460" cy="318" r="78" fill="#fffefb" stroke="#b45309" stroke-width="2" stroke-dasharray="6 4"/>
+  <line x1="382" y1="318" x2="538" y2="318" stroke="#78716c" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="460" y="308" text-anchor="middle" font-family="system-ui,sans-serif" font-size="12" font-weight="600" fill="#9a3412">partition</text>
+  <text x="460" y="328" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" fill="#78716c">сеть разделена</text>
+  <text x="460" y="352" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#a8a29e">при заданном P —</text>
+  <text x="460" y="368" text-anchor="middle" font-family="system-ui,sans-serif" font-size="10" fill="#a8a29e">напряжение между C и A</text>
+  <path d="M 460 240 L 460 154" fill="none" stroke="#d6d3d1" stroke-width="1.2" marker-end="url(#arr)"/>
+  <rect x="80" y="520" width="760" height="88" rx="8" fill="#fafaf9" stroke="#d6d3d1"/>
+  <text x="100" y="548" font-family="system-ui,sans-serif" font-size="12" fill="#44403c"><tspan font-weight="600">P</tspan> в распределённых системах обычно не отключают — выбор между строгостью чтения и ответами</text>
+  <text x="100" y="568" font-family="system-ui,sans-serif" font-size="12" fill="#44403c">при сбоях сети задаётся моделью согласованности и политикой репликации.</text>
+  <text x="100" y="596" font-family="system-ui,sans-serif" font-size="11" fill="#78716c">BuildByte · CAP · базы данных</text>
+</svg>

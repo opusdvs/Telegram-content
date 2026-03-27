@@ -10,3 +10,5 @@
 4. Картинки прикрепляй по путям из закомментированных полей `diagram_*` / `media` во frontmatter.
 
 Справочник хэштегов: [`templates/post-tags.md`](templates/post-tags.md).
+
+**Каналы:** `channels/deploy-by-donatas/` (Deploy by Donatas), `channels/build-byte/` (BuildByte — см. `channel.txt`).
